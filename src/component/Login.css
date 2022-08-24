@@ -1,0 +1,55 @@
+input {
+    background: transparent;
+    text-align: center;
+    border: none;
+    border-bottom: 2px solid rgb(206, 22, 50);
+    padding: 1.5%;
+    color: rgb(236, 247, 241);
+}
+
+::-webkit-input-placeholder {
+    color: rgb(234, 223, 223);
+    opacity: 85%;
+    font-size: 1.2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+#signupbtn {
+
+    margin-left: auto;
+    opacity: 50%;
+    font-weight: 600;
+    background-image: linear-gradient(to right, red, blue);
+    box-shadow: 0, 7px, 7px red;
+    color: antiquewhite;
+}
+
+#signupbtn:hover {
+    background-image: linear-gradient(to right, blue, red);
+    opacity: 100%;
+
+}
+
+#loginbtn {
+    margin-left: .8rem;
+
+    font-weight: 600;
+    background-image: linear-gradient(to right, red, blue);
+    color: antiquewhite;
+
+}
+
+#loginbtn:hover {
+    background-image: linear-gradient(to right, blue, red);
+
+}
+
+#main {
+    margin-top: 53%;
+    text-align: center;
+}
+
+#top {
+    margin-top: 5%;
+}

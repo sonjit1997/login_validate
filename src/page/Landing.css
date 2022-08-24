@@ -1,0 +1,31 @@
+#button {
+    position: absolute;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    top: 67%;
+    left: 53.5%;
+    transform: translate(-50%, -50%);
+    font-weight: 700;
+    outline: 2px solid rgb(255, 251, 251);
+    overflow: hidden;
+    transition: color 1s;
+    color: aliceblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 12px;
+}
+
+#button:hover {
+    background-color: rgb(250, 227, 227);
+    border: 2px solid rgb(255, 0, 0);
+    color: red;
+
+}
+
+#canvas {
+    background-image: linear-gradient(to bottom, rgb(241, 246, 253), rgb(6, 71, 150), rgb(2, 18, 37));
+}
+
+#canhead {
+    background-color: rgb(241, 246, 253);
+}
