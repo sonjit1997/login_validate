@@ -45,10 +45,10 @@ const Landing = () => {
     }
     // console.log(count)
 
-    if (count == 0) {
-      setSuccessmsgLogin("Login Successfull with all va");
+    if (count === 0) {
+      setSuccessmsgLogin("Login Successfull with all validation");
       setCheckName("");
-      setCheckName("");
+      setErrorMsgLogin("");
     }
   };
 
